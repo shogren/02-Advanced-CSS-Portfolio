@@ -14,6 +14,7 @@ header {
     color: #fff;
     padding: 5%;
     background-color: #434C5E;
+    border-bottom: 20px solid #B48EAD;  
     }
 
 header img {
@@ -34,6 +35,7 @@ header nav {
       
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     min-width: 300px;
     }
       
@@ -61,10 +63,21 @@ h2 {
     margin: 5%;
     }
 
-.main-content {
+.main-body {
     display: flex;
-    align-items: center;
-    flex: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+
+    
+}
+
+.main-content {
+    margin-bottom: 5%;
+    display: flex;
+    align-items: baseline;
+    flex: initial;
+  
 }
 
 .main-content h2 {
@@ -74,9 +87,21 @@ h2 {
     width: 70%;
 }
 
+.images {
+    width: 200px;
+    height: 200px;
+}
 
+.image-block {
+    margin-top: 5%;
+    margin-right: 5%;
+}
 
-
+#bio-logo {
+    flex: auto;
+    border-radius: 80%;
+    flex-wrap: wrap ;
+}
 
 
 
@@ -88,11 +113,14 @@ footer {
     padding: 5px;
     clear: both;
     text-align: center;
+    position: fixed;
     color: #d9dcd6;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #434C5E;
+    border-top: 20px solid #B48EAD;
+  
     }
 
 footer h2 {
