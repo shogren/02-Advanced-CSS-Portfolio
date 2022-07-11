@@ -8,9 +8,60 @@
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1%;
     color: #fff;
     padding: 5%;
+    background-color: #434C5E;
+    }
+
+header img {
+    justify-content: flex-start;
+    }
+      
+header h1 {
+    font-size: 300%;
+    color:#d9dcd6
+    }
+      
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    }
+      
+nav ul {
+    display: flex;
+    /* justify-content: space-between; */
+    min-width: 300px;
+    }
+      
+nav a {
+    color: #d9dcd6;
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    }
+      
+nav a:hover {
+    color: #81A1C1;
+    }
+      
+header nav ul li {
+    display: inline-block;
+    font-size: 100%;
+    margin-left: 25px;
+    }
+        
+footer {
+    padding: 5px;
+    clear: both;
+    text-align: center;
+    color: #d9dcd6;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #434C5E;
     }
