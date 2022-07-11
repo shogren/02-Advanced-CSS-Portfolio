@@ -1,0 +1,16 @@
+* {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: #fff;
+    padding: 5%;
+    background-color: #434C5E;
+    }
