@@ -1,5 +1,5 @@
 * {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
@@ -90,6 +90,21 @@ h2 {
 .images {
     width: 200px;
     height: 200px;
+    flex: auto;
+    border-radius: 80%;
+    flex-wrap: wrap ;
+}
+
+.hide {
+    display: none;
+}
+
+.images:hover {
+    transform: scale(1.25);
+}
+
+.images:hover + .hide {
+    display: block;
 }
 
 .image-block {
@@ -97,13 +112,11 @@ h2 {
     margin-right: 5%;
 }
 
-#bio-logo {
-    flex: auto;
-    border-radius: 80%;
-    flex-wrap: wrap ;
+.main-images {
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 25%;
 }
-
-
 
 
 
