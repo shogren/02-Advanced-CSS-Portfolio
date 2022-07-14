@@ -1,3 +1,4 @@
+/* universally set font size and styling */
 * {
     font-size: 24px;
     line-height: 1.5em;
@@ -5,6 +6,7 @@
   
     }
 
+/* header styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -17,21 +19,20 @@ header {
     border-bottom: 20px solid #B48EAD;  
     }
 
-header img {
-    justify-content: flex-start;
-    }
-
+/* my profile avatar */
 #headshot {
     border-radius: 80%;
     height: 150px;
     width: 150px;
 }
-      
+
+/* Styles the big 'Jonathan Shogren' in the header */
 header h1 {
     font-size: 300%;
     color:#d9dcd6
     }
-      
+    
+/* made the anchor links as a list in a nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,12 +40,14 @@ header nav {
     font-size: 20px;
     }
       
+/* make sure the ul wraps nicely  */
 nav ul {
     display: flex;
     flex-wrap: wrap;
     min-width: 300px;
     }
       
+/* style the anchor links */
 nav a {
     color: #d9dcd6;
     font-size: 150%;
@@ -52,16 +55,19 @@ nav a {
     text-decoration: none;
     }
       
+/* change color on hover */
 nav a:hover {
     color: #81A1C1;
     }
-      
+
+/* each list item needed a margin */
 header nav ul li {
     display: inline-block;
     font-size: 100%;
     margin-left: 25px;
     }
         
+/* the aside h2s */
 h2 {
     font-size: 180%;
     font-family: serif;
@@ -69,12 +75,12 @@ h2 {
     margin: 5%;
     }
 
-
+/* make sure is resizes nicely */
 .aside {
     min-width: 200px;
 }
 
-
+/* wraps the entire page in a flexbox with settings */
 .main-body {
     display: flex;
     flex-direction: column;
@@ -83,6 +89,7 @@ h2 {
     position: relative;
 }
 
+/* each titled section is a 'main-content' */
 .main-content {
     display: flex;
     flex-wrap: wrap;
@@ -91,14 +98,17 @@ h2 {
     border-bottom: 20px solid #B48EAD;    
 }
 
+/* the headings for the aside */
 .main-content h2 {
     margin-right: 10%;
 }
 
+/* the text within the main-content blocks */
 .content {
     width: 70%;
 }
 
+/* main images */
 .images {
     width: 200px;
     height: 200px;
@@ -107,20 +117,23 @@ h2 {
     flex: 0 1 200px;
 }
 
+/* specifically needed to style one image bigger */
 #img1 {
     width: 250px;
     height: 250px;
 }
 
-
+/* scale images on hover */
 .images:hover {
     transform: scale(1.25);
 }
 
+/* I wanted div to contain an image and text that stayed together and wrapped */
 .image-block {
     flex-wrap: wrap;
 }
 
+/* as opposed to 'main-content' this needed to behave differently */
 .main-images {
     display: flex;
     justify-content: space-evenly;
@@ -130,6 +143,7 @@ h2 {
     border-bottom: 20px solid #B48EAD;  
 }
 
+/* make sure everything shrinks and flexes when the screen size is extremely small */
 @media screen and (max-width: 350px) {
     header h1 {
         font-size: 100%;
@@ -156,7 +170,7 @@ h2 {
     }
 }
 
-
+/* footer styling */
 footer {
     padding: 5px;
     text-align: center;

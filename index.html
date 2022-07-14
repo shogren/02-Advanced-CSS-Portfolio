@@ -10,6 +10,7 @@
       </head>
 
     <body>
+        <!-- header contains profile pic, h1 heading and anchor link nav -->
         <header>
             <img id="headshot" src="assets/images/avatar.png" alt="A cartoon image of Jon Shogren">
             <h1>Jonathan Shogren</h1>
@@ -22,7 +23,10 @@
               </nav>
           </header>
         
+        <!-- the main body contains everything except the header -->
         <section class="main-body">
+
+            <!-- about me section -->
             <section class="main-content">
                 <h2 class="aside" id="about">About</h2>
                     <p class="content">
@@ -31,21 +35,19 @@
                         When I have a rare bit of free time, I like to play hockey, scuba dive, and read sci-fi.
                     </p>
                 <div class="image-block">
-                    <!-- <img class="images" src="assets/images/avatar.png" alt="A cartoon image of Jon Shogren"> -->
                 </div>
             </section>
             
+            <!-- projects section -->
             <section class="main-content">
                 <h2 class="aside" id="projects">Projects</h2>
-                
                     <p class="content">
                         Here is what I've been working on:
                     </p>
-                
             </section>
-            
-            <section class="main-images">
 
+            <!-- this section contains the 'planets' and needed to behave differently than the 'main-content' sections -->
+            <section class="main-images">
                 <div class="image-block">
                     <a href="https://github.com/shogren/mandrill-to-slack/blob/main/mandrill-webhook.php">
                         <img class="images" id="img1" src="assets/images/placeholder1.jpeg" alt="a colorful image of computer code, representing project 1"  ></img>
@@ -55,7 +57,7 @@
                 
                 <div class="image-block">
                     <a href="https://github.com/mailchimp/mailchimp-client-lib-codegen">
-                        <img class="images" id="img2" src="assets/images/placeholder2.jpeg" alt="a colorful image of computer code, representing project 2"  ></img>
+                        <img class="images" src="assets/images/placeholder2.jpeg" alt="a colorful image of computer code, representing project 2"  ></img>
                     </a>
                     <p>The 'Mailchimp Client Library' documentation, which I have contributed to.</p>
 
@@ -63,22 +65,22 @@
 
                 <div class="image-block">
                     <a href="https://github.com/shogren/01-Challenge-Code-Refactor">
-                        <img class="images" id="img3" src="assets/images/placeholder3.jpeg" alt="a colorful image of computer code, representing project 3"  ></img>
+                        <img class="images" src="assets/images/placeholder3.jpeg" alt="a colorful image of computer code, representing project 3"  ></img>
                     </a>
                     <p>The 'Code Refactor Challenge' from week 1.</p>
                 </div>
                 
                 <div class="image-block">
-                    <a href="https://github.com/shogren/02-Advanced-CSS-Portfolio"><img class="images" id="img4" src="assets/images/placeholder4.jpeg" alt="a colorful image of computer code, representing project 4"  ></img>
+                    <a href="https://github.com/shogren/02-Advanced-CSS-Portfolio"><img class="images" src="assets/images/placeholder4.jpeg" alt="a colorful image of computer code, representing project 4"  ></img>
                     </a>
                     <p>A link to the repo for this page!</p>
                 </div>
 
             </section>
 
+            <!-- contact section -->
             <section class="main-content">
                 <h2 class="aside" id="contact">Contact</h2>
-                
                     <p class="content">
                         In general, I don't want people to reach out to me. BUT IF YOU MUST <br>
                         Here is how you can reach me: <br>
@@ -86,11 +88,10 @@
                         Email: <a href="mailto:jon@fart.cool">jon@fart.cool</a>
                         <br>
                         Twitter: <a href="https://www.twitter.com/jonshogren">@jonshogren</a>
-
                     </p>
-                
             </section>
 
+            <!-- footer within the 'main-body' to help with collision -->
             <footer>
                 <h2>Made by Jonathan Shogren</h2>
                   <p>
