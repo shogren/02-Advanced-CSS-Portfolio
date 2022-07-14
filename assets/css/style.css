@@ -20,6 +20,12 @@ header {
 header img {
     justify-content: flex-start;
     }
+
+#headshot {
+    border-radius: 80%;
+    height: 150px;
+    width: 150px;
+}
       
 header h1 {
     font-size: 300%;
@@ -75,30 +81,22 @@ h2 {
     flex-wrap: nowrap;
     align-items: stretch;
     position: relative;
-
-    
 }
 
 .main-content {
-    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex: initial;
-    /* just for testing visibility */
-    border: solid;
-  
+    border-bottom: 20px solid #B48EAD;    
 }
 
 .main-content h2 {
     margin-right: 10%;
-    /* just for testing visibility */
-    border: solid;
 }
+
 .content {
     width: 70%;
-    /* just for testing visibility */
-    border: solid;
 }
 
 .images {
@@ -109,31 +107,27 @@ h2 {
     flex: 0 1 200px;
 }
 
-.hide {
-    display: none;
+#img1 {
+    width: 250px;
+    height: 250px;
 }
+
 
 .images:hover {
     transform: scale(1.25);
 }
 
-.images:hover + .hide {
-    display: block;
-}
-
 .image-block {
-    margin-top: 5%;
-    margin-right: 5%;
+    flex-wrap: wrap;
 }
 
 .main-images {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 5% ;
+    margin-top: 2%;
     height: 100%;
     flex-wrap: wrap;
-    /* just for testing visibility */
-    border: solid;
+    border-bottom: 20px solid #B48EAD;  
 }
 
 @media screen and (max-width: 350px) {
